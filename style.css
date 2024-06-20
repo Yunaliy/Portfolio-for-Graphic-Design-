@@ -1,0 +1,86 @@
+body,
+.intro,
+.hello {
+  padding: 0;
+  margin: 0;
+}
+@font-face {
+  font-family: 'myFont';
+  src: url('./font/myFont.ttf') format('truetype');
+}
+
+.name {
+  font-family: 'myFont', cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  color: #0b282b;
+}
+.btn-primary:hover {
+  background-color: #f0e7e1; /* Replace with your desired hover color */
+}
+/* .custom-bg a:hover {
+  background-color: inherit !important;
+  color: inherit !important;
+  text-decoration: none !important;
+} */
+.textaline {
+  text-align: left;
+}
+.home-container {
+  background-color: #dfd3ca;
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.intro {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #0b282b;
+}
+.custom-bg {
+  background-color: #dfd3ca;
+}
+.custom-bg-2 {
+  background-color: #b5a79d;
+}
+.custom-t {
+  color: #0b282b;
+}
+
+.ali {
+  font-size: 4rem;
+}
+strong {
+  color: #051315;
+}
+.ali-img {
+  width: 500px;
+  height: 540px;
+}
+@media (max-width: 1250px) {
+  .home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    padding-top: 10px;
+    height: 50%;
+  }
+  .ali {
+    text-align: center;
+  }
+  .ali-img {
+    width: 350px;
+    height: 440px;
+  }
+}
+
+.list {
+  list-style: none;
+}
